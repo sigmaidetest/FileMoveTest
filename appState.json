@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "7624ea71-6826-4977-89bb-5d11ad7e4b42": {
+        "id": "7624ea71-6826-4977-89bb-5d11ad7e4b42",
+        "parent": null,
+        "name": "MoveFileTest",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "239f0075-2c8d-4291-8dc3-edfd4bf34b20"
+        ],
+        "isRemovable": false,
+        "filePath": "MoveFileTest"
+      },
+      "239f0075-2c8d-4291-8dc3-edfd4bf34b20": {
+        "id": "239f0075-2c8d-4291-8dc3-edfd4bf34b20",
+        "parent": "7624ea71-6826-4977-89bb-5d11ad7e4b42",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MoveFileTest/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "7624ea71-6826-4977-89bb-5d11ad7e4b42",
+    "openFiles": [
+      "239f0075-2c8d-4291-8dc3-edfd4bf34b20"
+    ],
+    "currentFileId": "239f0075-2c8d-4291-8dc3-edfd4bf34b20",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "MoveFileTest",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1553765319709
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "MoveFileTest",
+      "url": "https://github.com/sigmaidetest/FileMoveTest"
+    }
+  }
+}
